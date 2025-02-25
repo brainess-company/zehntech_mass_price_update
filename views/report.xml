@@ -1,0 +1,11 @@
+<odoo>
+    <!-- Report Action -->
+    <record id="price_change_report_pdf" model="ir.actions.report">
+        <field name="name">Price Change Report</field>
+        <field name="model">price.change.report</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">zehntech_mass_price_update.report_price_change_pdf</field>
+        <field name="report_file">zehntech_mass_price_update.report_price_change_pdf</field> <!-- Ensure this matches the template ID -->
+        <field name="binding_model_id" ref="model_price_change_report"/>
+    </record>
+</odoo>

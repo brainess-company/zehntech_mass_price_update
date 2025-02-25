@@ -1,0 +1,1226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* zehntech_mass_price_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-23 10:49+0000\n"
+"PO-Revision-Date: 2025-01-23 10:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Currency:</strong>"
+msgstr "<strong>Währung:</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>End Date:</strong>"
+msgstr "<strong>Enddatum:</strong>"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Highest Decrease Sale:</strong>"
+msgstr "<strong>Höchster Rückgang im Verkauf:</strong>"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Highest Increase Sale:</strong>"
+msgstr "<strong>Höchster Anstieg im Verkauf:</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Profitability Change (%):</strong>"
+msgstr "<strong>Rentabilitätsänderung (%):</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Revenue After (Converted):</strong>"
+msgstr "<strong>Einnahmen nachher (umgerechnet):</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Revenue After:</strong>"
+msgstr "<strong>Einnahmen nachher:</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Revenue Before (Converted):</strong>"
+msgstr "<strong>Einnahmen vorher (umgerechnet):</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Revenue Before:</strong>"
+msgstr "<strong>Einnahmen vorher:</strong>"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>Startdatum:</strong>"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+msgid "<strong>Total Changes:</strong>"
+msgstr "<strong>Gesamtänderungen:</strong>"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_type__add
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__apply_type__add
+msgid "Add"
+msgstr "Hinzufügen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_to__all
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Apply Changes"
+msgstr "Änderungen anwenden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__apply_on
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__apply_on
+msgid "Apply On"
+msgstr "Anwenden auf"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__apply_to
+msgid "Apply To"
+msgstr "Anwenden auf"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__apply_type
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__apply_type
+msgid "Apply Type"
+msgstr "Anwendungstyp"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Are you sure you want to update changes?"
+msgstr "Sind Sie sicher, dass Sie die Änderungen aktualisieren möchten?"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__attribute_ids
+msgid "Attributes"
+msgstr "Attribute"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__category_ids
+msgid "Categories"
+msgstr "Kategorien"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__change
+msgid "Change (Constant)"
+msgstr "Änderung (Konstant)"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__change_percentage
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__change_percentage
+msgid "Change Percentage"
+msgstr "Änderungsprozentsatz"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model,name:zehntech_mass_price_update.model_change_price_line
+msgid "Change Price Line"
+msgstr "Preisänderungslinie"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__change_type
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__change_type
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_log_search
+msgid "Change Type"
+msgstr "Änderungstyp"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__change_value
+msgid "Change Value"
+msgstr "Änderungswert"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__change_type__constant
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__change_type__constant
+msgid "Constant Value"
+msgstr "Konstanter Wert"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__change_value
+msgid "Constant value of change applied to the price or cost"
+msgstr ""
+"Konstanter Änderungswert, der auf den Preis oder die Kosten angewendet wird"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__change
+msgid "Constant value to be added or reduced from the product price or cost"
+msgstr ""
+"Konstanter Wert, der zum Produktpreis oder zu den Kosten hinzugefügt oder "
+"davon abgezogen wird."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_on__cost
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__apply_on__cost
+msgid "Cost"
+msgstr "Kosten"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__create_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__create_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__create_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__create_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__create_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__create_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__currency_id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__currency_id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__currency_id
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_log_search
+msgid "Currency"
+msgstr "Währung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__current_cost
+msgid "Current Cost"
+msgstr "Aktuelle Kosten"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__current_price
+msgid "Current Price"
+msgstr "Aktueller Preis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__update_date
+msgid "Date and time when the price update was logged"
+msgstr "Datum und Uhrzeit, zu der die Preisänderung protokolliert wurde."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__change_type
+msgid ""
+"Defines if the change will be a percentage increase/decrease or a constant "
+"value adjustment"
+msgstr ""
+"Definiert, ob die Änderung eine prozentuale Erhöhung/Verringerung oder eine "
+"konstante Wertanpassung sein wird."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__apply_type
+msgid ""
+"Determines whether the change will be an addition or reduction in the price "
+"or cost"
+msgstr ""
+"Legt fest, ob die Änderung eine Erhöhung oder Reduzierung des Preises oder "
+"der Kosten ist."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__display_name
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__display_name
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__display_name
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__round_price
+msgid ""
+"Enable rounding for the updated prices to the nearest value as per rounding "
+"rules"
+msgstr ""
+"Aktivieren Sie die Rundung für die aktualisierten Preise auf den nächsten "
+"Wert gemäß den Rundungsregeln."
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__end_date
+msgid "End Date"
+msgstr "Enddatum"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Error applying price or cost change: %s"
+msgstr "Fehler beim Anwenden der Preis- oder Kostenänderung: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/change_price_line.py:0
+#, python-format
+msgid "Error calculating new values: %s"
+msgstr "Fehler bei der Berechnung neuer Werte: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Error changing price or cost: %s"
+msgstr "Fehler bei der Änderung von Preis oder Kosten: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error converting revenue to target currency: %s"
+msgstr "Fehler beim Konvertieren des Umsatzes in die Zielwährung: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error creating Price Change Report: %s"
+msgstr "Fehler beim Erstellen des Preisänderungsberichts: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error during date validation or report generation: %s"
+msgstr "Fehler bei der Datumsvalidierung oder der Berichtserstellung: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error during report generation: %s"
+msgstr "Fehler bei der Berichtserstellung: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error exporting to Excel: %s"
+msgstr "Fehler beim Export nach Excel: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error exporting to PDF: %s"
+msgstr "Fehler beim Export nach PDF: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error fetching sales for product '%s': %s"
+msgstr "Fehler beim Abrufen der Verkäufe für das Produkt '%s': %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error manually generating report: %s"
+msgstr "Fehler bei der manuellen Erstellung des Berichts: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Error updating Price Change Report: %s"
+msgstr "Fehler beim Aktualisieren des Preisänderungsberichts: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Error updating products or categories: %s"
+msgstr "Fehler beim Aktualisieren von Produkten oder Kategorien: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Error updating products or tags/attributes: %s"
+msgstr "Fehler beim Aktualisieren von Produkten oder Tags/Attributen: %s"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__export_name
+msgid "Export File Name"
+msgstr "Exportdateiname"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_price_change_report_form
+msgid "Export to Excel"
+msgstr "Exportieren nach Excel"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_price_change_report_form
+msgid "Export to PDF"
+msgstr "Exportieren nach PDF"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,comment:zehntech_mass_price_update.mass_price_update_group_admin
+msgid ""
+"Full access to the mass price update wizard and related functionalities"
+msgstr ""
+"Voller Zugriff auf den Massenpreisaktualisierungsassistenten und verwandte "
+"Funktionen"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_log_search
+msgid "Group By"
+msgstr "Gruppieren nach"
+
+#. module: zehntech_mass_price_update
+#: model:ir.module.category,description:zehntech_mass_price_update.module_category_mass_price_update
+msgid "Helps to manage access to the mass price update functionality"
+msgstr ""
+"Hilft bei der Verwaltung des Zugriffs auf die "
+"Massenpreisaktualisierungsfunktion"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__highest_decrease_product_id
+msgid "Highest Decrease Sale"
+msgstr "Größter Rückgang im Verkauf"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__highest_increase_product_id
+msgid "Highest Increase Sale"
+msgstr "Größter Anstieg im Verkauf"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__apply_on
+msgid "Indicates whether the change was applied to the price or cost"
+msgstr ""
+"Gibt an, ob die Änderung auf den Preis oder die Kosten angewendet wurde"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__round_price
+msgid "Indicates whether the updated price was rounded"
+msgstr "Gibt an, ob der aktualisierte Preis gerundet wurde"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line____last_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update____last_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log____last_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__write_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__write_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__write_uid
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__write_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__write_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__write_date
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__line_ids
+msgid "Line"
+msgstr "Zeile"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__line_ids
+msgid "Lines showing the details of the price changes applied"
+msgstr "Zeilen, die die Details der angewendeten Preisänderungen zeigen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.actions.act_window,name:zehntech_mass_price_update.mass_price_update_action
+#: model:ir.model,name:zehntech_mass_price_update.model_mass_price_update
+#: model:ir.module.category,name:zehntech_mass_price_update.module_category_mass_price_update
+#: model:ir.ui.menu,name:zehntech_mass_price_update.menu_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Mass Price Update"
+msgstr "Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,name:zehntech_mass_price_update.mass_price_update_group_admin
+msgid "Mass Price Update Administrator"
+msgstr "Administrator für Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model,name:zehntech_mass_price_update.model_mass_price_update_log
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_mass_price_update_log_form
+msgid "Mass Price Update Log"
+msgstr "Protokoll der Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_mass_price_update_log_tree
+msgid "Mass Price Update Logs"
+msgstr "Protokolle der Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,name:zehntech_mass_price_update.mass_price_update_group_user
+msgid "Mass Price Update User"
+msgstr "Benutzer für Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,name:zehntech_mass_price_update.mass_price_update_group_viewer
+msgid "Mass Price Update Viewer"
+msgstr "Betrachter für Massenpreisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__max_price
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__max_price
+msgid "Maximum Price"
+msgstr "Höchstpreis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__max_price
+msgid "Maximum price allowed for the product after the update"
+msgstr ""
+"Maximaler Preis, der für das Produkt nach der Aktualisierung erlaubt ist"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__min_price
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__min_price
+msgid "Minimum Price"
+msgstr "Mindestpreis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__min_price
+msgid "Minimum price allowed for the product after the update"
+msgstr "Mindestpreis, der für das Produkt nach der Aktualisierung erlaubt ist"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__new_cost
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__new_cost
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "New Cost"
+msgstr "Neue Kosten"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__new_cost_target_currency
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__new_cost_target_currency
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "New Cost in Target Currency"
+msgstr "Neue Kosten in Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__new_price
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__new_price
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "New Price"
+msgstr "Neuer Preis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__new_price_target_currency
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__new_price_target_currency
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "New Price in Target Currency"
+msgstr "Neuer Preis in Zielwährung"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "No price change logs found in the given date range."
+msgstr ""
+"Keine Protokolle für Preisänderungen im angegebenen Datumsbereich gefunden."
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.actions.act_window,help:zehntech_mass_price_update.mass_price_update_log_action
+msgid "No price update logs found"
+msgstr "Keine Protokolle für Preisaktualisierungen gefunden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__mass_price_update_id
+msgid "Number"
+msgstr "Nummer"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__old_cost
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Old Cost"
+msgstr "Alte Kosten"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__old_cost_target_currency
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__old_cost_target_currency
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Old Cost in Target Currency"
+msgstr "Alte Kosten in Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__old_price
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Old Price"
+msgstr "Alter Preis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__old_price_target_currency
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__old_price_target_currency
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Old Price in Target Currency"
+msgstr "Alter Preis in Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__old_cost
+msgid "Original cost before the update"
+msgstr "Ursprüngliche Kosten vor der Aktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__old_cost_target_currency
+msgid "Original cost in the target currency before the update"
+msgstr "Ursprüngliche Kosten in der Zielwährung vor der Aktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__old_price
+msgid "Original price before the update"
+msgstr "Ursprünglicher Preis vor der Aktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__old_price_target_currency
+msgid "Original price in the target currency before the update"
+msgstr "Ursprünglicher Preis in der Zielwährung vor der Aktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__change_type__percentage
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__change_type__percentage
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__change_percentage
+msgid "Percentage of change applied to the price or cost"
+msgstr ""
+"Prozentsatz der Änderung, die auf den Preis oder die Kosten angewendet wurde"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__change_percentage
+msgid ""
+"Percentage value to be applied for increasing or decreasing the product "
+"price or cost"
+msgstr ""
+"Prozentsatz, der zur Erhöhung oder Senkung des Produktpreises oder der "
+"Kosten angewendet werden soll"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Please enter the change percentage."
+msgstr "Bitte geben Sie den Änderungsprozentsatz ein."
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Please enter the constant change value."
+msgstr "Bitte geben Sie den konstanten Änderungswert ein."
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Please select a target currency."
+msgstr "Bitte wählen Sie eine Zielwährung aus."
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Please select at least one product."
+msgstr "Bitte wählen Sie mindestens ein Produkt aus."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_on__price
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__apply_on__price
+msgid "Price"
+msgstr "Preis"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.actions.act_window,name:zehntech_mass_price_update.action_price_change_report
+#: model:ir.actions.report,name:zehntech_mass_price_update.price_change_report_pdf
+#: model:ir.model,name:zehntech_mass_price_update.model_price_change_report
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.report_price_change_pdf
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_price_change_report_form
+msgid "Price Change Report"
+msgstr "Preisänderungsbericht"
+
+#. module: zehntech_mass_price_update
+#: model:ir.ui.menu,name:zehntech_mass_price_update.price_change_report_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.view_price_change_report_tree
+msgid "Price Change Reports"
+msgstr "Berichte zur Preisänderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__price_list_ids
+msgid "Price Lists"
+msgstr "Preislisten"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_log_search
+msgid "Price Update Log Search"
+msgstr "Preisaktualisierungsprotokollsuche"
+
+#. module: zehntech_mass_price_update
+#: model:ir.actions.act_window,name:zehntech_mass_price_update.mass_price_update_log_action
+#: model:ir.ui.menu,name:zehntech_mass_price_update.menu_mass_price_update_log
+msgid "Price Update Logs"
+msgstr "Protokolle zur Preisaktualisierung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__price_list_ids
+msgid "Price lists affected by the mass price update"
+msgstr "Preislisten, die von der Massenpreisaktualisierung betroffen sind"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_change_price_line__product_id
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__tag_ids
+msgid "Product Tags"
+msgstr "Produkt-Tags"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__attribute_ids
+msgid ""
+"Product attributes used to filter the products for the price or cost changes"
+msgstr ""
+"Produkteigenschaften, die verwendet werden, um die Produkte für Preis- oder "
+"Kostenänderungen zu filtern"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__category_ids
+msgid ""
+"Product categories used to filter applicable items for price or cost changes"
+msgstr ""
+"Produktkategorien, die verwendet werden, um anwendbare Artikel für Preis- "
+"oder Kostenänderungen zu filtern"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__product_ids
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__product_ids
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_view_form
+msgid "Products"
+msgstr "Produkte"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__profitability
+msgid "Profitability Change (%)"
+msgstr "Änderung der Rentabilität (%)"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,comment:zehntech_mass_price_update.mass_price_update_group_user
+msgid "Read-only access to the mass price update logs and insights"
+msgstr ""
+"Nur-Lesezugriff auf die Massenpreisaktualisierungsprotokolle und "
+"Erkenntnisse"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_type__reduce
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update_log__apply_type__reduce
+msgid "Reduce"
+msgstr "Reduzieren"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__mass_price_update_id
+msgid "Reference to the mass price update entry associated with this line"
+msgstr ""
+"Referenz auf den Massenpreisaktualisierungseintrag, der mit dieser Zeile "
+"verknüpft ist"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Report action not found."
+msgstr "Berichtsaktion nicht gefunden."
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__revenue_after
+msgid "Revenue After"
+msgstr "Umsatz danach"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__revenue_after_converted
+msgid "Revenue After (In chosen currency)"
+msgstr "Umsatz danach (in gewählter Währung)"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__revenue_before
+msgid "Revenue Before"
+msgstr "Umsatz davor"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__revenue_before_converted
+msgid "Revenue Before (In chosen currency)"
+msgstr "Umsatz davor (in gewählter Währung)"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__round_price
+msgid "Round Prices"
+msgstr "Preise runden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__round_price
+msgid "Rounded Price"
+msgstr "Gerundeter Preis"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_to__attribute
+msgid "Selected Attribute"
+msgstr "Ausgewähltes Attribut"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_to__category
+msgid "Selected Categories"
+msgstr "Ausgewählte Kategorien"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_to__selected
+msgid "Selected Products"
+msgstr "Ausgewählte Produkte"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields.selection,name:zehntech_mass_price_update.selection__mass_price_update__apply_to__tag
+msgid "Selected Tags"
+msgstr "Ausgewählte Tags"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__product_ids
+msgid "Specific products selected for price or cost changes"
+msgstr ""
+"Bestimmte Produkte, die für Preis- oder Kostenänderungen ausgewählt wurden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__apply_to
+msgid ""
+"Specifies the scope of products to which the price or cost changes will "
+"apply"
+msgstr ""
+"Gibt den Umfang der Produkte an, auf die sich die Preis- oder "
+"Kostenänderungen beziehen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__apply_on
+msgid ""
+"Specifies whether the changes will be applied to the sales price or the cost"
+" of the product"
+msgstr ""
+"Gibt an, ob die Änderungen auf den Verkaufspreis oder die Kosten des "
+"Produkts angewendet werden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__apply_type
+msgid "Specifies whether the value was added to or reduced from the original"
+msgstr ""
+"Gibt an, ob der Wert zum Original hinzugefügt oder davon abgezogen wurde"
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__start_date
+msgid "Start Date"
+msgstr "Startdatum"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Start Date cannot be later than End Date."
+msgstr "Das Startdatum darf nicht später als das Enddatum sein."
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "Success"
+msgstr "Erfolg"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__tag_ids
+msgid "Tags assigned to products for selecting applicable items for changes"
+msgstr ""
+"Produkten zugewiesene Tags zur Auswahl anwendbarer Artikel für Änderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update__currency_id
+msgid "Target Currency"
+msgstr "Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__currency_id
+msgid "Target currency used for price or cost conversion"
+msgstr "Zielwährung, die für die Preis- oder Kostenumrechnung verwendet wird"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__currency_id
+msgid ""
+"The currency in which the price or cost changes are calculated and applied"
+msgstr ""
+"Die Währung, in der die Preis- oder Kostenänderungen berechnet und "
+"angewendet werden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__currency_id
+msgid "The currency in which the product prices and costs are expressed"
+msgstr "Die Währung, in der die Produktpreise und -kosten angegeben sind"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__currency_id
+msgid "The currency in which the report values will be calculated"
+msgstr "Die Währung, in der die Berichtswerte berechnet werden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__current_cost
+msgid "The current cost of the product before changes"
+msgstr "Die aktuellen Kosten des Produkts vor den Änderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__current_price
+msgid "The current sales price of the product"
+msgstr "Der aktuelle Verkaufspreis des Produkts"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__export_name
+msgid "The default file name used when exporting the report"
+msgstr ""
+"Der Standarddateiname, der beim Exportieren des Berichts verwendet wird"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__end_date
+msgid "The ending date for the price change report period"
+msgstr "Das Enddatum für den Berichtszeitraum der Preisänderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__product_ids
+msgid "The list of products included in this price change report"
+msgstr ""
+"Die Liste der Produkte, die in diesem Preisänderungsbericht enthalten sind"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__max_price
+msgid "The maximum price limit to be applied during the update, if specified"
+msgstr ""
+"Das maximale Preislimit, das während des Updates angewendet wird, falls "
+"angegeben"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update__min_price
+msgid "The minimum price limit to be applied during the update, if specified"
+msgstr ""
+"Das minimale Preislimit, das während des Updates angewendet wird, falls "
+"angegeben"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__new_cost
+msgid "The newly computed cost after applying changes"
+msgstr "Die neu berechneten Kosten nach Anwendung der Änderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__new_price
+msgid "The newly computed sales price after applying changes"
+msgstr "Der neu berechnete Verkaufspreis nach Anwendung der Änderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__profitability
+msgid ""
+"The percentage change in profitability resulting from the price changes"
+msgstr ""
+"Die prozentuale Veränderung der Rentabilität infolge der Preisänderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__old_cost_target_currency
+msgid "The previous cost of the product converted to the target currency"
+msgstr "Die vorherigen Kosten des Produkts, umgerechnet in die Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__old_price_target_currency
+msgid ""
+"The previous sales price of the product converted to the target currency"
+msgstr ""
+"Der vorherige Verkaufspreis des Produkts, umgerechnet in die Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.actions.act_window,help:zehntech_mass_price_update.mass_price_update_log_action
+msgid "The price update logs will be displayed here."
+msgstr "Die Preisaktualisierungsprotokolle werden hier angezeigt."
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__product_id
+msgid "The product for which the price or cost was updated"
+msgstr "Das Produkt, dessen Preis oder Kosten aktualisiert wurden"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__product_id
+msgid "The product selected for price or cost changes"
+msgstr "Das Produkt, das für Preis- oder Kostenänderungen ausgewählt wurde"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__highest_decrease_product_id
+msgid "The product with the highest price decrease during the report period"
+msgstr ""
+"Das Produkt mit dem größten Preisrückgang während des Berichtszeitraums"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__highest_increase_product_id
+msgid "The product with the highest price increase during the report period"
+msgstr ""
+"Das Produkt mit dem größten Preisanstieg während des Berichtszeitraums"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__start_date
+msgid "The starting date for the price change report period"
+msgstr "Das Startdatum für den Berichtszeitraum der Preisänderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__total_changes
+msgid "The total number of price changes within the selected period"
+msgstr ""
+"Die Gesamtzahl der Preisänderungen innerhalb des ausgewählten Zeitraums"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__revenue_after
+msgid "The total revenue after the price changes during the selected period"
+msgstr ""
+"Der Gesamtumsatz nach den Preisänderungen während des ausgewählten Zeitraums"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__revenue_after_converted
+msgid ""
+"The total revenue after the price changes, converted to the chosen currency"
+msgstr ""
+"Der Gesamtumsatz nach den Preisänderungen, umgerechnet in die gewählte "
+"Währung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__revenue_before
+msgid "The total revenue before the price changes during the selected period"
+msgstr ""
+"Der Gesamtumsatz vor den Preisänderungen während des ausgewählten Zeitraums"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_price_change_report__revenue_before_converted
+msgid ""
+"The total revenue before the price changes, converted to the chosen currency"
+msgstr ""
+"Der Gesamtumsatz vor den Preisänderungen, umgerechnet in die gewählte "
+"Währung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__new_cost_target_currency
+msgid "The updated cost of the product converted to the target currency"
+msgstr ""
+"Die aktualisierten Kosten des Produkts, umgerechnet in die Zielwährung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_change_price_line__new_price_target_currency
+msgid ""
+"The updated sales price of the product converted to the target currency"
+msgstr ""
+"Der aktualisierte Verkaufspreis des Produkts, umgerechnet in die Zielwährung"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "The {} has been updated."
+msgstr "Die {} wurde aktualisiert."
+
+#. module: zehntech_mass_price_update
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_price_change_report__total_changes
+msgid "Total Changes"
+msgstr "Gesamtänderungen"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__change_type
+msgid "Type of change applied to the price or cost"
+msgstr "Art der Änderung, die auf den Preis oder die Kosten angewendet wurde"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__update_date
+msgid "Update Date"
+msgstr "Aktualisierungsdatum"
+
+#. module: zehntech_mass_price_update
+#: model_terms:ir.ui.view,arch_db:zehntech_mass_price_update.mass_price_update_log_search
+msgid "Update Date (Day)"
+msgstr "Aktualisierungsdatum (Tag)"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,field_description:zehntech_mass_price_update.field_mass_price_update_log__user_id
+msgid "Updated By"
+msgstr "Aktualisiert von"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__new_cost
+msgid "Updated cost after the change"
+msgstr "Aktualisierte Kosten nach der Änderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__new_cost_target_currency
+msgid "Updated cost in the target currency after the change"
+msgstr "Aktualisierte Kosten in der Zielwährung nach der Änderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__new_price
+msgid "Updated price after the change"
+msgstr "Aktualisierter Preis nach der Änderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__new_price_target_currency
+msgid "Updated price in the target currency after the change"
+msgstr "Aktualisierter Preis in der Zielwährung nach der Änderung"
+
+#. module: zehntech_mass_price_update
+#: model:ir.model.fields,help:zehntech_mass_price_update.field_mass_price_update_log__user_id
+msgid "User who performed the update"
+msgstr "Benutzer, der die Aktualisierung durchgeführt hat"
+
+#. module: zehntech_mass_price_update
+#: model:res.groups,comment:zehntech_mass_price_update.mass_price_update_group_viewer
+msgid "View-only access to product pricing data"
+msgstr "Nur Lesezugriff auf Produktpreis-Daten"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "cost"
+msgstr "costo"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/wizard/mass_price_update.py:0
+#, python-format
+msgid "price"
+msgstr "precio"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Price Change Report"
+msgstr "Preisänderungsbericht"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "price_Change_Report.xlsx"
+msgstr "preis_Änderungsbericht.xlsx"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Start Date: %s"
+msgstr "Startdatum : %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "End Date: %s"
+msgstr "Enddatum: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Currency: %s"
+msgstr "Währung: %s"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Total Changes:"
+msgstr "Gesamtänderungen:"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Revenue Before:"
+msgstr "Umsatz vorher:"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Revenue After:"
+msgstr "Umsatz nach:"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Revenue Before (Converted):"
+msgstr "Umsatz vorher (umgerechnet):"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Revenue After (Converted):"
+msgstr "Umsatz danach (umgerechnet):"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Profitability Change (%):"
+msgstr "Rentabilitätsänderung (%):"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Highest Increase Product:"
+msgstr "Produkt mit der höchsten Steigerung:"
+
+#. module: zehntech_mass_price_update
+#. odoo-python
+#: code:addons/zehntech_mass_price_update/models/price_change_report.py:0
+#, python-format
+msgid "Highest Decrease Product:"
+msgstr "Produkt mit der höchsten Abnahme:"

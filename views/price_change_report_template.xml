@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="report_price_change_pdf">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <div class="price-change-report" style="padding: 20px; font-family: Arial, sans-serif;">
+                    <h2 style="text-align: center; font-size: 28px; color: #2c3e50; margin-bottom: 30px;">Price Change Report</h2>
+                    <div style="color: #34495e; line-height: 1.8;">
+                        <p><strong>Start Date:</strong> <span t-esc="doc.start_date"/></p>
+                        <p><strong>End Date:</strong> <span t-esc="doc.end_date"/></p>
+                        <p><strong>Currency:</strong> <span t-esc="doc.currency_id.name"/></p>
+                        <p><strong>Total Changes:</strong> <span t-esc="doc.total_changes"/></p>
+                        <p><strong>Revenue Before:</strong> <span t-esc="doc.revenue_before"/></p>
+                        <p><strong>Revenue After:</strong> <span t-esc="doc.revenue_after"/></p>
+                        <p><strong>Revenue Before (Converted):</strong> <span t-esc="doc.revenue_before_converted"/></p>
+                        <p><strong>Revenue After (Converted):</strong> <span t-esc="doc.revenue_after_converted"/></p>
+                        <p><strong>Profitability Change (%):</strong> <span t-esc="doc.profitability"/></p>
+                        <p><strong>Highest Increase Sale:</strong> <span t-esc="doc.highest_increase_product_id.display_name"/></p>
+                        <p><strong>Highest Decrease Sale:</strong> <span t-esc="doc.highest_decrease_product_id.display_name"/></p>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

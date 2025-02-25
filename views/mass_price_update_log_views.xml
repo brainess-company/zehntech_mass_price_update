@@ -1,0 +1,109 @@
+<odoo>
+   <!-- Tree View for Mass Price Update Log -->
+    <record id="view_mass_price_update_log_tree" model="ir.ui.view">
+        <field name="name">mass.price.update.log.tree</field>
+        <field name="model">mass.price.update.log</field>
+        <field name="arch" type="xml">
+            <tree string="Mass Price Update Logs">
+                <field name="update_date"/>
+                <field name="user_id"/>
+                <field name="product_id"/>
+                <field name="change_type"/>
+                <field name="apply_type"/>
+                <field name="apply_on"/>
+                <field name="old_price" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                <field name="new_price" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                <field name="old_cost" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                <field name="new_cost" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                <field name="currency_id"/>
+                <field name="change_percentage" />
+                <field name="change_value" />
+                <field name="min_price"/>
+                <field name="max_price"/>
+                <field name="round_price"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_mass_price_update_log_form" model="ir.ui.view">
+        <field name="name">mass.price.update.log.form</field>
+        <field name="model">mass.price.update.log</field>
+        <field name="arch" type="xml">
+            <form string="Mass Price Update Log">
+                <sheet>
+                <group>
+                    <group>
+                        <field name="update_date" readonly="1"/>
+                        <field name="user_id" readonly="1"/>
+                        <field name="product_id" readonly="1"/>
+                        <field name="apply_on" readonly="1"/>
+                        <field name="change_type" readonly="1"/>
+                        <field name="apply_type" readonly="1"/>
+                        <field name="change_percentage" attrs="{'invisible': [('change_type', '!=', 'percentage')]}"  readonly="1"/>
+                        <field name="change_value" attrs="{'invisible': [('change_type', '!=', 'constant')]}"  readonly="1"/>
+                        <field name="old_price" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                        <field name="new_price" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                        <field name="old_cost" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                        <field name="new_cost" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                    </group>
+                    <group>
+                            <field name="currency_id" readonly="1"/>
+                            <field name="old_price_target_currency" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                            <field name="new_price_target_currency" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'price')]}"/>
+                            <field name="old_cost_target_currency" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                            <field name="new_cost_target_currency" readonly="1" attrs="{'invisible': [('apply_on', '!=', 'cost')]}"/>
+                            <field name="min_price" readonly="1"/>
+                            <field name="max_price" readonly="1"/>
+                            <field name="round_price" readonly="1"/>
+                       </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View for Mass Price Update Log -->
+    <record id="mass_price_update_log_search" model="ir.ui.view">
+        <field name="name">Price Update Log - Search</field>
+        <field name="model">mass.price.update.log</field>
+        <field name="arch" type="xml">
+            <search string="Price Update Log Search">
+                <filter string="Update Date (Day)" name="group_by_update_date_day" context="{'group_by': 'update_date:day'}"/>
+                <separator/>
+                <group expand="0" string="Group By">
+                    <filter string="Change Type" name="group_by_change_type" context="{'group_by': 'change_type'}"/>
+                    <filter string="Currency" name="group_by_currency" context="{'group_by': 'currency_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action for Mass Price Update Logs -->
+    <record id="mass_price_update_log_action" model="ir.actions.act_window">
+        <field name="name">Price Update Logs</field>
+        <field name="res_model">mass.price.update.log</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">
+            {
+                "group_by": ["update_date:day"],
+                "search_default_group_by_update_date_day": 1
+            }
+        </field>
+        <field name="search_view_id" ref="mass_price_update_log_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_empty_folder">
+                No price update logs found
+            </p>
+            <p>
+                The price update logs will be displayed here.
+            </p>
+        </field>
+    </record>
+
+    <!-- Menu for Price Update Logs -->
+    <menuitem id="menu_mass_price_update_log"
+              name="Price Update Logs"
+              parent="stock.menu_stock_inventory_control"
+              action="mass_price_update_log_action"
+              sequence="10"/>
+</odoo>

@@ -1,0 +1,61 @@
+<odoo>
+    <!-- Tree View -->
+<record id="view_price_change_report_tree" model="ir.ui.view">
+        <field name="name">price.change.report.tree</field>
+        <field name="model">price.change.report</field>
+        <field name="arch" type="xml">
+            <tree string="Price Change Reports">
+                <field name="start_date"/>
+                <field name="end_date"/>
+                <field name="currency_id"/>
+                <field name="total_changes"/>
+                <field name="highest_increase_product_id"/>
+                <field name="highest_decrease_product_id"/>
+                <field name="revenue_before"/>
+                <field name="revenue_after"/>
+                <field name="profitability"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_price_change_report_form" model="ir.ui.view">
+        <field name="name">price.change.report.form</field>
+        <field name="model">price.change.report</field>
+        <field name="arch" type="xml">
+            <form string="Price Change Report">
+                <button name="action_export_excel" type="object" string="Export to Excel" class="btn-secondary"/>
+                <button name="action_export_pdf" type="object" string="Export to PDF" class="btn-secondary"/>
+                   
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                            <field name="currency_id"/>
+                        </group>
+                        <group>
+                                <field name="total_changes" readonly="1"/>
+                                <field name="revenue_before" readonly="1"/>
+                                <field name="revenue_after" readonly="1"/>
+                                <field name="revenue_before_converted" readonly="1"/>
+                                <field name="revenue_after_converted" readonly="1"/>
+                                <field name="profitability" readonly="1"/>
+                                <field name="highest_increase_product_id" readonly="1"/>
+                                <field name="highest_decrease_product_id" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action to Open Report Views -->
+    <record id="action_price_change_report" model="ir.actions.act_window">
+        <field name="name">Price Change Report</field>
+        <field name="res_model">price.change.report</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu Item for Accessing Report -->
+    <menuitem id="price_change_report_menu" name="Price Change Reports" parent="stock.menu_stock_inventory_control" action="action_price_change_report" sequence="20"/>
+</odoo>

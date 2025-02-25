@@ -1,0 +1,135 @@
+<odoo>
+    <!-- Form view of the wizard for Mass Price Update -->
+    <record id="mass_price_update_view_form" model="ir.ui.view">
+        <field name="name">mass.price.update.view.form</field>
+        <field name="model">mass.price.update</field>
+        <field name="arch" type="xml">
+            <form string="Mass Price Update">
+                <sheet>
+                    <group>
+                        <!-- Group for applying to categories, products, attributes, and tags -->
+                        <group>
+                            <field name="apply_to" widget="radio"/>
+                            <field name="category_ids" 
+                                   widget="many2many_tags" 
+                                   options="{'no_create_edit': True, 'no_create': True}" 
+                                   attrs="{'invisible': [('apply_to', '!=', 'category')]}"/>
+                            <field name="product_ids" 
+                                   widget="many2many_tags" 
+                                   options="{'no_create_edit': True, 'no_create': True}" 
+                                   attrs="{'invisible': [('apply_to', '!=', 'selected')]}"/>
+                            <field name="attribute_ids" 
+                                   widget="many2many_tags" 
+                                   options="{'no_create_edit': True, 'no_create': True}" 
+                                   attrs="{'invisible': [('apply_to', '!=', 'attribute')]}"/>
+                            <field name="tag_ids" 
+                                   widget="many2many_tags" 
+                                   options="{'no_create_edit': True, 'no_create': True}" 
+                                   attrs="{'invisible': [('apply_to', '!=', 'tag')]}"/>
+                            <field name="apply_on" widget="radio"/>
+                        </group>
+
+                        <!-- Group for price and cost settings -->
+                        <group>
+                            <field name="currency_id" required="1"/>
+                            <field name="change_type" widget="radio"/>
+                            
+                            <field name="change" 
+                                  
+                                   options="{'currency_field': 'currency_id'}" 
+                                   attrs="{'invisible': [('change_type', '=', 'percentage')]}"/>
+                            <field name="change_percentage" 
+                                   widget="percentage" 
+                                   attrs="{'invisible': [('change_type', '=', 'constant')]}"/>
+                            <field name="apply_type" widget="radio"/>
+                            <field name="min_price" 
+                              options="{'currency_field': 'currency_id'}" 
+                                   />
+                            <field name="max_price" 
+                                 options="{'currency_field': 'currency_id'}" 
+                                  />
+                            <field name="round_price" widget="boolean"/>
+                        </group>
+                    </group>
+
+                    <!-- Tab for product price update lines -->
+                    <notebook>
+                    <page string="Products">
+                        <field name="line_ids" attrs="{'invisible': [('product_ids', '=', False)]}">
+                            <tree editable="bottom">
+                                <field name="product_id" readonly="1"/>
+                                <field name="current_price" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="Old Price"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'cost')]}"/>
+                                <field name="new_price" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="New Price"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'cost')]}"/>
+                                <field name="old_price_target_currency" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="Old Price in Target Currency"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'cost')]}"/>
+                                <field name="new_price_target_currency" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="New Price in Target Currency"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'cost')]}"/>
+                                <field name="current_cost" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                      string="Old Cost"
+                                      attrs="{'column_invisible': [('parent.apply_on', '=', 'price')]}"/>
+                                <field name="new_cost" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                     string="New Cost"
+                                     attrs="{'column_invisible': [('parent.apply_on', '=', 'price')]}"/>
+                                <field name="old_cost_target_currency" 
+                                       widget="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="Old Cost in Target Currency"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'price')]}"/>
+                                <field name="new_cost_target_currency" 
+                                       widget ="monetary" 
+                                       options="{'currency_field': 'currency_id'}" 
+                                       string="New Cost in Target Currency"
+                                       attrs="{'column_invisible': [('parent.apply_on', '=', 'price')]}"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+
+                <!-- Footer with action buttons -->
+                <footer>
+                    <button name="action_change_price" 
+                            string="Apply Changes" 
+                            type="object" 
+                            class="oe_highlight" 
+                            confirm="Are you sure you want to update changes?"/>
+                    
+                    <button string="Cancel" class="btn btn-default" special="cancel"/>
+                </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action for mass price update -->
+    <record id="mass_price_update_action" model="ir.actions.act_window">
+        <field name="name">Mass Price Update</field>
+        <field name="res_model">mass.price.update</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- Menu for mass price update -->
+    <menuitem id="menu_mass_price_update" 
+              name="Mass Price Update" 
+              parent="stock.menu_stock_inventory_control" 
+              action="mass_price_update_action" 
+              sequence="5"/>
+</odoo>
